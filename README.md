@@ -20,4 +20,4 @@ This aboutme repository shows information about the Github tools and resources t
 ## Contributers
 My name is SAI SAMRAT ADLOORI and i am currently pursuing my Masters in Applied Computer Sciences.
 
-![Hosted image](https://static.toiimg.com/photo/msid-60829850/60829850.jpg?112757)
+![Hosted image](https://4.bp.blogspot.com/-AD6bLpIu_r4/UefkSJOqw9I/AAAAAAAAnmg/-T44YccSe60/s1600/Pawan+Kalyan+HD+wallpapers+9.jpg)
