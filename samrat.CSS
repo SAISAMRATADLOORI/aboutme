@@ -47,7 +47,7 @@ color: rgb(243, 188, 6);
   color: rgba(255, 248, 248, 0.432);
 }
 .bgimg {
-    background-image: url("https://github.com/SAISAMRATADLOORI/aboutme/raw/master/road.jpg");
+    background-image: url("https://github.com/SAISAMRATADLOORI/aboutme/raw/master/road.jpg?raw=true");
     height: 100%;
     position: relative;
     opacity: 0.85;
