@@ -59,7 +59,11 @@
     <p style="color:aliceblue">Grams: <span id="outputGrams"></span></p>
     <script>
         function weightConverter(valNum) {
-            localStorage.setItem("num1", parseInt(document.getElementById("Kilograms").value));
+            localStorage.setItem("num1", parseInt(document.getElementById("inputKilograms").value));
+            if(localStorage.getItem("num1")<0)
+            {
+                throw Error("invalid values");
+            }
             document.getElementById("outputGrams").innerHTML = localStorage.getItem("num1") * 1000;
         }
     </script>
