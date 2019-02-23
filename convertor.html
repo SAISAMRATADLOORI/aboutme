@@ -62,6 +62,7 @@
             localStorage.setItem("num1", parseInt(document.getElementById("inputKilograms").value));
             if(localStorage.getItem("num1")<0)
             {
+                alret("weight cannot be negative");
                 throw Error("invalid values");
             }
             document.getElementById("outputGrams").innerHTML = localStorage.getItem("num1") * 1000;
