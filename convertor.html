@@ -51,12 +51,12 @@
         <h1 id="text">SAI SAMRAT</h1>
     </header>
     <h2 class="weight">Weight Converter</h2>
-    <p style="color:aliceblue">Type a value in the Kilograms field to convert the value to Grams:</p>
+    <p style="color:red">Type a value in the Kilograms field to convert the value to Grams:</p>
     <p>
         <label id="t1">Kilograms</label>
         <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
     </p>
-    <p style="color:aliceblue">Grams: <span id="outputGrams"></span></p>
+    <p style="color:red">Grams: <span id="outputGrams"></span></p>
     <script>
         function weightConverter(valNum) {
             localStorage.setItem("num1", parseInt(document.getElementById("inputKilograms").value));
