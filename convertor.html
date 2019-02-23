@@ -58,7 +58,7 @@
             localStorage.setItem("num1", parseInt(document.getElementById("inputKilograms").value));
             if(localStorage.getItem("num1")<0)
             {
-                throw Error("invalid values");
+                window.alert("invalid values");
             }
             document.getElementById("outputGrams").innerHTML = localStorage.getItem("num1") * 1000;
         }
